@@ -46,13 +46,13 @@ python3 subbruter.py -w wordlist.txt -u FUZZ.example.com -t 30 --http --dns MX -
 
 # Usage:
 ## Option------------Description
--w                   / --wordlist	Path to wordlist file (Required)
+```-w                   / --wordlist	Path to wordlist file (Required)
 -u                   / --url	Target with FUZZ placeholder (Required)
 -t                  / --threads	Number of threads (Default: 20)
 -v                 / --verbose	Verbose mode for failed attempts
 -o                / --output	Output file to save results
 --http	          Check HTTP response status
---dns	           Lookup DNS record type (e.g., MX, TXT, NS)
+--dns	           Lookup DNS record type (e.g., MX, TXT, NS)```
 
 
 
