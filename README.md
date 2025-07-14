@@ -25,4 +25,27 @@
 
 ✅ Clean colored terminal output
 
+#Installation
+
+#1️⃣ Clone the repository:
+```
+git clone https://github.com/yourusername/SubBruter.git
+cd SubBruter
+```
+
+# 2️⃣ Install required Python packages:
+```
+pip install -r requirements.txt
+```
+
+
+# Usage
+```
+python3 subbruter.py -w wordlist.txt -u FUZZ.example.com -t 30 --http --dns MX -o results.txt -v
+```
+
+# Usage:
+## Option	Description
+
+
 
