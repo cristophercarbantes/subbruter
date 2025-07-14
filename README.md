@@ -33,4 +33,31 @@ pipx uninstall subbruter
 subbruter -w wordlist.txt -u FUZZ.example.com
 ```
 
+### Check HTTP Response:
+```
+subbruter -w wordlist.txt -u FUZZ.example.com --http
+```
+
+### Lookup DNS Records (e.g., MX):
+```
+subbruter -w wordlist.txt -u FUZZ.example.com --dns MX
+```
+
+### Save found subdomains to a file:
+```
+subbruter -w wordlist.txt -u FUZZ.example.com -o results.txt
+```
+### Show progress and failed attempts (verbose):
+```
+subbruter -w wordlist.txt -u FUZZ.example.com -v
+```
+
+### Change number of threads:
+```
+subbruter -w wordlist.txt -u FUZZ.example.com -t 50
+```
+
+# 🔹 All Command Options
+
+
 
