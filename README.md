@@ -58,6 +58,29 @@ subbruter -w wordlist.txt -u FUZZ.example.com -t 50
 ```
 
 # 🔹 All Command Options
+```
+| Option              | Description                                          |
+| ------------------- | ---------------------------------------------------- |
+| `-w` / `--wordlist` | Path to wordlist (**Required**)                      |
+| `-u` / `--url`      | Target domain with `FUZZ` placeholder (**Required**) |
+| `-t` / `--threads`  | Number of threads (default: 20)                      |
+| `-v` / `--verbose`  | Show failed attempts                                 |
+| `-o` / `--output`   | Output file for found subdomains                     |
+| `--http`            | Check HTTP status of subdomains                      |
+| `--dns`             | Check for a specific DNS record (e.g., MX, TXT)      |
+```
+
+# 📊 Example Output:
+```
+[PROGRESS] 150/1000 words tested
+[FOUND] admin.example.com - 93.184.216.34 | HTTP 200 | MX Record(s): mail.example.com.
+[FAILED] test.example.com
+```
+
+# ⚠️ Disclaimer
+SubBruter is for educational and authorized penetration testing only.
+Do not use it without permission!
+
 
 
 
