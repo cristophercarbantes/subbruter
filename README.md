@@ -25,9 +25,9 @@
 
 ✅ Clean colored terminal output
 
-#Installation
+# Installation
 
-#1️⃣ Clone the repository:
+# 1️⃣ Clone the repository:
 ```
 git clone https://github.com/yourusername/SubBruter.git
 cd SubBruter
@@ -45,7 +45,14 @@ python3 subbruter.py -w wordlist.txt -u FUZZ.example.com -t 30 --http --dns MX -
 ```
 
 # Usage:
-## Option	Description
+## Option------------Description
+-w                   / --wordlist	Path to wordlist file (Required)
+-u                   / --url	Target with FUZZ placeholder (Required)
+-t                  / --threads	Number of threads (Default: 20)
+-v                 / --verbose	Verbose mode for failed attempts
+-o                / --output	Output file to save results
+--http	          Check HTTP response status
+--dns	           Lookup DNS record type (e.g., MX, TXT, NS)
 
 
 
