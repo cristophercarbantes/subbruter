@@ -29,7 +29,7 @@ Clone and install via **pipx** (recommended):
 
 ```bash
 git clone https://github.com/yourusername/subbruter.git
-cd subbruter
+cd SubBruter
 pipx install .
 ```
 
