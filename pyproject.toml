@@ -1,0 +1,12 @@
+[project]
+name = "subbruter"
+version = "0.2.0"
+description = "Lightweight async subdomain brute forcing tool with status codes + progress"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+dependencies = ["aiohttp>=3.8.0", "asyncio", "tqdm>=4.60.0"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+subbruter = "subbruter.main:cli"
+
